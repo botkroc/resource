@@ -111,7 +111,7 @@ var ap = new APlayer({
     pic: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource@main/20201130184505.png',
   }, {
     title: 'インドア系ならトラックメイカー',
-    author: 'Yunomi/nicamoq',
+    author: 'Yunomi',
     url: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource2@main/music/%E3%82%A4%E3%83%B3%E3%83%88%E3%82%99%E3%82%A2%E7%B3%BB%E3%81%AA%E3%82%89%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF%E3%83%A1%E3%82%A4%E3%82%AB%E3%83%BC.m4a',
     pic: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource@main/20201130184505.png',
   }, {

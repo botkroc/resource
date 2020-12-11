@@ -119,7 +119,7 @@ var ap = new APlayer({
     author: '音阙诗听',
     url: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource2@main/music/%E8%8A%92%E7%A7%8D.m4a',
     pic: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource@main/20201130184505.png',
-  },{
+  }, {
     title: '告白(Acoustic)',
     author: '冷鸟',
     url: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource2@main/music/%E5%91%8A%E7%99%BD(Acoustic).m4a',
@@ -148,6 +148,31 @@ var ap = new APlayer({
     title: 'DEAR JOHN',
     author: '比莉',
     url: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource2@main/music/DEAR%20JOHN.m4a',
+    pic: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource@main/20201130184505.png',
+  }, {
+    title: '癒し イヤラシ☆これって何ナニ',
+    author: '伊ヶ崎綾香',
+    url: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource2@main/music/%E7%99%92%E3%81%97%20%E3%82%A4%E3%83%A4%E3%83%A9%E3%82%B7%E2%98%86%E3%81%93%E3%82%8C%E3%81%A3%E3%81%A6%E4%BD%95%E3%83%8A%E3%83%8B.mp3',
+    pic: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource@main/20201130184505.png',
+  }, {
+    title: 'ForGotten Sorrow',
+    author: 'Yozoh',
+    url: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource2@main/music/ForGotten%20Sorrow.m4a',
+    pic: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource@main/20201130184505.png',
+  }, {
+    title: '彼女は旅に出る',
+    author: '鎖那',
+    url: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource2@main/music/%E5%BD%BC%E5%A5%B3%E3%81%AF%E6%97%85%E3%81%AB%E5%87%BA%E3%82%8B.m4a',
+    pic: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource@main/20201130184505.png',
+  }, {
+    title: 'Miku',
+    author: '初音ミク',
+    url: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource2@main/music/Miku.m4a',
+    pic: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource@main/20201130184505.png',
+  }, {
+    title: '今夜的风',
+    author: '程响',
+    url: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource2@main/music/%E4%BB%8A%E5%A4%9C%E7%9A%84%E9%A3%8E.m4a',
     pic: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource@main/20201130184505.png',
   },]
 });

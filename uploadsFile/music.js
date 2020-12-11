@@ -144,5 +144,10 @@ var ap = new APlayer({
     author: '音阙诗听',
     url: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource2@main/music/%E7%AB%8B%E5%86%AC.m4a',
     pic: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource@main/20201130184505.png',
-  }, ]
+  }, {
+    title: 'DEAR JOHN',
+    author: '比莉',
+    url: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource2@main/music/DEAR%20JOHN.m4a',
+    pic: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource@main/20201130184505.png',
+  },]
 });

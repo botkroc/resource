@@ -174,5 +174,10 @@ var ap = new APlayer({
     author: '内田真礼',
     url: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource2@main/music/Deep%20Blue%20Town%E3%81%B8%E3%81%8A%E3%81%84%E3%81%A7%E3%82%88%20.m4a',
     pic: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource@main/20201130184505.png',
+  },{
+    title: '化身星海',
+    author: '爱哥',
+    url: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource2@main/music/%E5%8C%96%E8%BA%AB%E6%98%9F%E6%B5%B7.m4a',
+    pic: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource@main/20201130184505.png',
   },]
 });

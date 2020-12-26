@@ -179,5 +179,10 @@ var ap = new APlayer({
     author: '爱哥',
     url: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource2@main/music/%E5%8C%96%E8%BA%AB%E6%98%9F%E6%B5%B7.m4a',
     pic: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource@main/20201130184505.png',
+  },{
+    title: '緋色月下、狂咲ノ絶',
+    author: '',
+    url: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource2@main/music/%E7%B7%8B%E8%89%B2%E6%9C%88%E4%B8%8B%E3%80%81%E7%8B%82%E5%92%B2%E3%83%8E%E7%B5%B6.m4a',
+    pic: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource@main/20201130184505.png',
   },]
 });

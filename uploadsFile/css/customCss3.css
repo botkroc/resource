@@ -312,6 +312,7 @@ a, img {
     background: #222a30;
     border: 0.2rem solid rgb(255, 0, 0);
     animation: myQuoteAnim 2s infinite linear;
+    font-weight: bolder;
 }
 
 @keyframes myQuoteAnim {

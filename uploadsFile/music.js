@@ -15,6 +15,11 @@ var ap = new APlayer({
     url: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource2@main/music/%E3%80%90%E6%B4%9B%E5%A4%A9%E4%BE%9D%E3%80%91%E5%BD%B1%E5%AD%90%E5%B0%8F%E5%A7%90.m4a',
     pic: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource@main/20201130184505.png',
   }, {
+    title: 'Conqueror',
+    author: 'IcA/Se7Lndra',
+    url: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource2@main/music/Conqueror.m4a',
+    pic: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource@main/20201130184505.png',
+  }, {
     title: '不必记得',
     author: '爱哥',
     url: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource2@main/music/%E4%B8%8D%E5%BF%85%E8%AE%B0%E5%BE%97%20-%20(%E6%89%8B%E6%B8%B8%E3%80%8A%E9%BB%91%E6%BD%AE%E6%A1%99%E4%B9%8B%E4%B8%8A%E3%80%8B%E4%B8%BB%E9%A2%98%E6%9B%B2%E4%B8%AD%E6%96%87%E7%89%88).m4a',

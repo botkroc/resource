@@ -1,8 +1,7 @@
 /*
-@file      :myUtils.js
-@Time      :2021-02-10 07:00:36
-@Author    :btKrc1nx
-@Software  :Visual Studio Code
+文件     :myUtils.js
+时间     :2021-02-10 07:00:36
+作者     :btKrc1nx
 */
 
 
@@ -36,7 +35,8 @@ function myGetRuntime(d) {
   const $runtimeCount = document.getElementById('runtimeshow')
   if ($runtimeCount) {
     const publishDate = $runtimeCount.getAttribute('data-publishDate')
-    setInterval(function () {
+    clearInterval(mTimer)
+    var mTimer = setInterval(function () {
       const runtimeDate = myGetRuntime(publishDate)
       $runtimeCount.innerText = '本站已运行 ' + runtimeDate.day + '天' + runtimeDate.hour + '小时' + runtimeDate.minute + '分钟' + runtimeDate.second + '秒'
     }, 1000)

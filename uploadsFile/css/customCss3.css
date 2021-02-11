@@ -7,9 +7,7 @@
     fill: currentColor;
     overflow: hidden;
 }
-.iconfont{
-font-size:22px;
-}
+.iconfont{font-size: 22px !important;}
 
 /*首页在最前*/
 

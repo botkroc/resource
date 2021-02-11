@@ -10,9 +10,9 @@
 .iconfont{font-size: 22px !important;}
 
 #site_social_icons{
-position:relative;
-z-index:4;
-display:block;
+position:relative !important;
+z-index:4 !important;
+display:block !important;
 }
 
 /*首页在最前*/

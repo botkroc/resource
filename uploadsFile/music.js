@@ -30,11 +30,6 @@ var ap = new APlayer({
     url: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource2@main/music/%E4%B8%87%E5%88%86%E4%B9%8B%E4%B8%80%E7%9A%84%E5%85%89.mp3',
     pic: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource@main/20201130184505.png',
   }, {
-    title: '蒸汽冲击',
-    author: '蒸汽波',
-    url: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource2@main/music/%E7%9C%9F%E6%B0%94%E5%86%B2%E5%87%BB.mp3',
-    pic: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource@main/20201130184505.png',
-  }, {
     title: '努力婊(hardworking bitch)',
     author: 'hanser',
     url: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource2@main/music/%E5%8A%AA%E5%8A%9B%E5%A9%8A(hardworking%20bitch).mp3',
@@ -155,11 +150,6 @@ var ap = new APlayer({
     url: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource2@main/music/%E7%99%92%E3%81%97%20%E3%82%A4%E3%83%A4%E3%83%A9%E3%82%B7%E2%98%86%E3%81%93%E3%82%8C%E3%81%A3%E3%81%A6%E4%BD%95%E3%83%8A%E3%83%8B.mp3',
     pic: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource@main/20201130184505.png',
   }, {
-    title: 'ForGotten Sorrow',
-    author: 'Yozoh',
-    url: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource2@main/music/ForGotten%20Sorrow.m4a',
-    pic: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource@main/20201130184505.png',
-  }, {
     title: '彼女は旅に出る',
     author: '鎖那',
     url: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource2@main/music/%E5%BD%BC%E5%A5%B3%E3%81%AF%E6%97%85%E3%81%AB%E5%87%BA%E3%82%8B.m4a',
@@ -170,21 +160,16 @@ var ap = new APlayer({
     url: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource2@main/music/Miku.m4a',
     pic: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource@main/20201130184505.png',
   }, {
-    title: '今夜的风',
-    author: '程响',
-    url: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource2@main/music/%E4%BB%8A%E5%A4%9C%E7%9A%84%E9%A3%8E.m4a',
-    pic: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource@main/20201130184505.png',
-  }, {
     title: 'Deep Blue Townへおいでよ',
     author: '内田真礼',
     url: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource2@main/music/Deep%20Blue%20Town%E3%81%B8%E3%81%8A%E3%81%84%E3%81%A7%E3%82%88%20.m4a',
     pic: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource@main/20201130184505.png',
-  },{
+  }, {
     title: '化身星海',
     author: '爱哥',
     url: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource2@main/music/%E5%8C%96%E8%BA%AB%E6%98%9F%E6%B5%B7.m4a',
     pic: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource@main/20201130184505.png',
-  },{
+  }, {
     title: '緋色月下、狂咲ノ絶',
     author: '东方红魔郷 / U.N.オーエンは彼女なのか',
     url: 'https://cdn.jsdelivr.net/gh/btKrc1nx/resource2@main/music/%E7%B7%8B%E8%89%B2%E6%9C%88%E4%B8%8B%E3%80%81%E7%8B%82%E5%92%B2%E3%83%8E%E7%B5%B6.m4a',

@@ -13,6 +13,14 @@
 display:block !important;
 }
 
+/*自定义字体*/
+
+@font-face{
+  font-family:'tiantianquanziti' ; 
+  src:url('https://cdn.jsdelivr.net/gh/btKrc1nx/resource@main/fontFamily/tiantianquanziti.ttf'); 
+  font-display : swap;
+}
+
 /*首页在最前*/
 
 header.full_page {

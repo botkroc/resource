@@ -297,7 +297,8 @@ a, img {
 }
 
 .urlBtn {
-    border: 1px black solid;
+    border: 1px #FFFFFF solid;
+    color: #F7F7F7;
     width: 45%;
     height: 1.5rem;
 }

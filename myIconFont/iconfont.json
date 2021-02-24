@@ -6,6 +6,41 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "8466326",
+      "name": "最小化 ",
+      "font_class": "zuixiaohua",
+      "unicode": "e71a",
+      "unicode_decimal": 59162
+    },
+    {
+      "icon_id": "8647353",
+      "name": "最小化",
+      "font_class": "zuixiaohua1",
+      "unicode": "e7ea",
+      "unicode_decimal": 59370
+    },
+    {
+      "icon_id": "18923799",
+      "name": "关闭",
+      "font_class": "70BasicIcons-all-06",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "18924516",
+      "name": "设置",
+      "font_class": "70BasicIcons-all-33",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "19844651",
+      "name": "003-sakura",
+      "font_class": "003-sakura",
+      "unicode": "e66d",
+      "unicode_decimal": 58989
+    },
+    {
       "icon_id": "13853246",
       "name": "相册",
       "font_class": "xiangce",

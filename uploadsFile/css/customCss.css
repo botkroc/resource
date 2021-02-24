@@ -1,9 +1,9 @@
 /*字体图标*/
 
 .icon {
-    width: 3.5em;
-    height: 3.5em;
-    vertical-align: -1.3em;
+    width: 2em;
+    height: 2em;
+    vertical-align: -0.5em;
     fill: currentColor;
     overflow: hidden;
 }

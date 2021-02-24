@@ -6,6 +6,139 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "19463501",
+      "name": "苹果",
+      "font_class": "pingguo",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "19463504",
+      "name": "老母鸡",
+      "font_class": "laomuji",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "19463509",
+      "name": "小鸡 鸡 鸟 动物",
+      "font_class": "xiaojijiniaodongwu",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "19463511",
+      "name": "甜点 面包 蛋糕 水果 甜点",
+      "font_class": "tiandianmianbaodangaoshuiguotiandian",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "19463512",
+      "name": "蓝色花",
+      "font_class": "lansehua",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "19463513",
+      "name": "花 雏菊 菊花 白花",
+      "font_class": "huachujujuhuabaihua",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "19463514",
+      "name": "鳄鱼",
+      "font_class": "eyu",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "19463515",
+      "name": "花 红花 植物 花朵",
+      "font_class": "huahonghuazhiwuhuaduo",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "19463520",
+      "name": "青蛙 动物 卡通 可爱",
+      "font_class": "qingwadongwukatongkeai",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "19463521",
+      "name": "向日葵",
+      "font_class": "xiangrikui",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "19463522",
+      "name": "花 玫瑰花 鲜花",
+      "font_class": "huameiguihuaxianhua",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "19463523",
+      "name": "泰迪熊 玩偶 可爱",
+      "font_class": "taidixiongwanoukeai",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "19463527",
+      "name": "柠檬 水果 甜点",
+      "font_class": "ningmengshuiguotiandian",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "19463531",
+      "name": "小鸡 动物 鸟",
+      "font_class": "xiaojidongwuniao",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "19463533",
+      "name": "甜点 樱桃",
+      "font_class": "tiandianyingtao",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "19463534",
+      "name": "箱包 化妆包",
+      "font_class": "xiangbaohuazhuangbao",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "19463540",
+      "name": "花 花篮 鲜花 玫瑰花",
+      "font_class": "huahualanxianhuameiguihua",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "19463541",
+      "name": "小黄花",
+      "font_class": "xiaohuanghua",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "19463545",
+      "name": "信封 信件 邮箱 鲜花信封",
+      "font_class": "xinfengxinjianyouxiangxianhuaxinfeng",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
       "icon_id": "8466326",
       "name": "最小化 ",
       "font_class": "zuixiaohua",

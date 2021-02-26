@@ -140,14 +140,6 @@ text-shadow:0 0 0.05em #FFFFFF, 0 0 0.2em #FFFFFF, 0 0 0.15em #FFFFFF, 0 0 0.2em
     z-index: 1000001;
 }
 
-/*到最顶按钮的位置*/
-
-/*
-#rightside{
-    left: 40px;
-    bottom: 70px;
-}
-*/
 
 /*移动端隐藏作者信息*/
 
@@ -207,7 +199,7 @@ hr {
     background: #EE6363 !important;
 }
 
-#go-up, #mobile-toc-button, .aplayer-miniswitcher {
+#go-up, #mobile-toc-button, .aplayer-miniswitcher,#to_comment {
     background: rgba(7, 17, 27, 0.15) !important;
 }
 

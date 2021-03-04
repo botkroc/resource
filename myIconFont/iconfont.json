@@ -6,6 +6,48 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "7445861",
+      "name": "黑客",
+      "font_class": "heike",
+      "unicode": "e74c",
+      "unicode_decimal": 59212
+    },
+    {
+      "icon_id": "7445960",
+      "name": "黑客",
+      "font_class": "heike1",
+      "unicode": "e758",
+      "unicode_decimal": 59224
+    },
+    {
+      "icon_id": "7446033",
+      "name": "黑客",
+      "font_class": "heike2",
+      "unicode": "e760",
+      "unicode_decimal": 59232
+    },
+    {
+      "icon_id": "17395303",
+      "name": "黑客3 - 副本",
+      "font_class": "heike3-fuben",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "17395389",
+      "name": "黑客4",
+      "font_class": "heike4",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "18459433",
+      "name": "黑客",
+      "font_class": "heike3",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
       "icon_id": "19463501",
       "name": "苹果",
       "font_class": "pingguo",

@@ -544,7 +544,7 @@ blockquote{border-left: 0.2rem solid #EE6A50;
   }
 }
 
-# input控件和btn美化
+/* input控件和btn美化 */
 .myBtn{
             height: 30px;
             width: auto;

@@ -199,8 +199,10 @@ hr {
     background: #EE6363 !important;
 }
 
+/*播放器和右侧图标美化*/
+
 #go-up, #mobile-toc-button, .aplayer-miniswitcher,#to_comment {
-    background: rgba(7, 17, 27, 0.15) !important;
+    background: rgba(79, 103, 121, 0.3) !important;
 }
 
 .aplayer-body {

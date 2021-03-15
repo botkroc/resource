@@ -1,3 +1,6 @@
+/*by btkrc1nx*/
+
+
 var ap = new APlayer({
   element: document.getElementById('aplayer'),         // Optional, player element
   narrow: false,         // Optional, narrow style

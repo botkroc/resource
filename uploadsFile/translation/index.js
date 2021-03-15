@@ -1,3 +1,6 @@
+/*by btkrc1nx*/
+
+
 jQuery(function () {
 $('.btn-submit').off('click',onBtnClick);
   $('.btn-submit').on('click', onBtnClick);

@@ -1,3 +1,6 @@
+/*by btkrc1nx*/
+
+
 function func1(ev){
       var urlText = $('#urlText').val();
         $('#outUrl').text(encodeURIComponent(urlText));

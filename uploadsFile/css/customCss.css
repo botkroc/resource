@@ -448,6 +448,12 @@ border-color:#999999;
 /*置顶封面美化*/
 .full_page::before{content: '';pointer-events: none;position: absolute;top: 0;bottom: 0;left: 0;right: 0;z-index: 3;background-attachment: fixed;background-image: url(https://cdn.jsdelivr.net/gh/btKrc1nx/resource@main/img/dot.gif);transition: all 0.5s;}
 
+/*封面scroll-down优化z序*/
+
+#scroll-down i{
+z-index:3;
+}
+
 /*置顶封面 end*/
 
 /*dark模式下的封面图调亮 */

@@ -23,7 +23,7 @@ display:block !important;
   font-display : swap;
 }
 
-.copyright,.footer_custom_text,.recent-post-info,.card-widget,#post h1,#post h2,#post h3,#post h4,#post h5,#site-title,#subtitle,#blog_name,#menus,.pagination,.gallery-group,#post-info,.blog-slider__content,#sidebar-menus,.post-copyright,.tag_share,.reward-button,.pagination-post,#page,#post-comment{
+body,.copyright,.footer_custom_text,.recent-post-info,.card-widget,#post h1,#post h2,#post h3,#post h4,#post h5,#site-title,#subtitle,#blog_name,#menus,.pagination,.gallery-group,#post-info,.blog-slider__content,#sidebar-menus,.post-copyright,.tag_share,.reward-button,.pagination-post,#page,#post-comment{
 font-family:'tiantianquanziti',sans-serif;
 }
 /*自定义字体 end*/

@@ -16,7 +16,7 @@ var ap = new APlayer({
     title: '皆さん',
     author: '',
     url: 'https://cdn.jsdelivr.net/gh/botkroc/resource2@main/music/%E5%87%9B%E5%86%BD%E5%85%8B%E7%BD%97%E5%85%8B.m4a',
-    pic: 'https://cdn.jsdelivr.net/gh/botkroc/resource@main/20201130184505.png',
+    pic: 'https://cdn.jsdelivr.net/gh/botkroc/resource@main/img/F132F20170513155641.jpg',
   },{
     title: '影子小姐',
     author: '洛天依',

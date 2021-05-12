@@ -179,7 +179,7 @@ var ap = new APlayer({
     pic: 'https://cdn.jsdelivr.net/gh/botkroc/resource@main/img/F132F20170513155641.jpg',
   }, {
     title: '緋色月下、狂咲ノ絶',
-    author: '东方红魔郷 / U.N.オーエンは彼女なのか',
+    author: '东方红魔郷',
     url: 'https://cdn.jsdelivr.net/gh/botkroc/resource2@main/music/%E7%B7%8B%E8%89%B2%E6%9C%88%E4%B8%8B%E3%80%81%E7%8B%82%E5%92%B2%E3%83%8E%E7%B5%B6.m4a',
     pic: 'https://cdn.jsdelivr.net/gh/botkroc/resource@main/img/F132F20170513155641.jpg',
   },]

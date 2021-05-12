@@ -186,5 +186,5 @@ var ap = new APlayer({
 });
 
 /*切换音频*/
-ap.list.switch(1);
+ap.list.switch(0);
 ap.play();

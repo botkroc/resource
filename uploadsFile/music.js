@@ -14,7 +14,7 @@ var ap = new APlayer({
   fixed: true,
   music: [{
     title: '皆さん',
-    author: '',
+    author: 'roc',
     url: 'https://cdn.jsdelivr.net/gh/botkroc/resource2@main/music/%E5%87%9B%E5%86%BD%E5%85%8B%E7%BD%97%E5%85%8B.m4a',
     pic: 'https://cdn.jsdelivr.net/gh/botkroc/resource@main/img/F132F20170513155641.jpg',
   },{
@@ -28,6 +28,11 @@ var ap = new APlayer({
     url: 'https://cdn.jsdelivr.net/gh/botkroc/resource2@main/music/Conqueror.m4a',
     pic: 'https://cdn.jsdelivr.net/gh/botkroc/resource@main/img/F132F20170513155641.jpg',
   }, {
+    title: 'ロキ',
+    author: 'roc',
+    url: 'https://cdn.jsdelivr.net/gh/botkroc/resource2@main/music/%E3%83%AD%E3%82%AD.m4a',
+    pic: 'https://cdn.jsdelivr.net/gh/botkroc/resource@main/img/F132F20170513155641.jpg',
+  },{
     title: '不必记得',
     author: '爱哥',
     url: 'https://cdn.jsdelivr.net/gh/botkroc/resource2@main/music/%E4%B8%8D%E5%BF%85%E8%AE%B0%E5%BE%97%20-%20(%E6%89%8B%E6%B8%B8%E3%80%8A%E9%BB%91%E6%BD%AE%E6%A1%99%E4%B9%8B%E4%B8%8A%E3%80%8B%E4%B8%BB%E9%A2%98%E6%9B%B2%E4%B8%AD%E6%96%87%E7%89%88).m4a',

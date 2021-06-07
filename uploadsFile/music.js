@@ -87,6 +87,11 @@ var ap = new APlayer({
     author: '周杰伦',
     url: 'https://cdn.jsdelivr.net/gh/btkrc/resource2@main/music/%E8%8A%B1%E6%B5%B7.mp3',
     pic: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/img/F132F20170513155641.jpg',
+  },{
+    title: '夜曲',
+    author: '周杰伦',
+    url: 'https://cdn.jsdelivr.net/gh/btkrc/resource2@main/music/%E5%91%A8%E6%9D%B0%E4%BC%A6%20-%20%E5%A4%9C%E6%9B%B2.mp3',
+    pic: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/img/F132F20170513155641.jpg',
   }, {
     title: 'summertime',
     author: 'hanser',

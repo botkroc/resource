@@ -43,6 +43,11 @@ var ap = new APlayer({
     url: 'https://cdn.jsdelivr.net/gh/btkrc/resource2@main/music/%E4%B8%87%E5%88%86%E4%B9%8B%E4%B8%80%E7%9A%84%E5%85%89.mp3',
     pic: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/img/F132F20170513155641.jpg',
   }, {
+    title: '不仅仅是喜欢',
+    author: '青柠',
+    url: 'https://cdn.jsdelivr.net/gh/btkrc/resource2@main/music/%E4%B8%8D%E4%BB%85%E4%BB%85%E6%98%AF%E5%96%9C%E6%AC%A2.m4a',
+    pic: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/img/F132F20170513155641.jpg',
+  }, {
     title: '努力婊(hardworking bitch)',
     author: 'hanser',
     url: 'https://cdn.jsdelivr.net/gh/btkrc/resource2@main/music/%E5%8A%AA%E5%8A%9B%E5%A9%8A(hardworking%20bitch).mp3',

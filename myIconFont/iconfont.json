@@ -6,6 +6,27 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "8877672",
+      "name": "黑客",
+      "font_class": "heike5",
+      "unicode": "e725",
+      "unicode_decimal": 59173
+    },
+    {
+      "icon_id": "9961900",
+      "name": "黑客",
+      "font_class": "heike6",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "14728963",
+      "name": "黑客",
+      "font_class": "heike7",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
       "icon_id": "7445861",
       "name": "黑客",
       "font_class": "heike",

@@ -1,4 +1,4 @@
-/*by btkrc*/
+/*by Karcyril*/
 
 
 var ap = new APlayer({

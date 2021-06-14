@@ -13,8 +13,13 @@ var ap = new APlayer({
   listmaxheight: '513px',      // Optional, max height of play list
   fixed: true,
   music: [{
-    title: '皆さん',
-    author: 'roc',
+    title: '你曾是少年',
+    author: '冷鸟',
+    url: 'https://cdn.jsdelivr.net/gh/btkrc/resource2@main/music/http://%E4%BD%A0%E6%9B%BE%E6%98%AF%E5%B0%91%E5%B9%B4.mp3',
+    pic: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/img/F132F20170513155641.jpg',
+  },{
+    title: '不知道名字',
+    author: '不知道',
     url: 'https://cdn.jsdelivr.net/gh/btkrc/resource2@main/music/%E5%87%9B%E5%86%BD%E5%85%8B%E7%BD%97%E5%85%8B.m4a',
     pic: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/img/F132F20170513155641.jpg',
   },{

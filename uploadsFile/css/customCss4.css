@@ -90,7 +90,7 @@ text-shadow:0 0 0.05em #FFFFFF, 0 0 0.2em #FFFFFF, 0 0 0.15em #FFFFFF, 0 0 0.2em
 
 /*标题h1 h2 h3 h4样式*/
 
-
+/*
 .post-content h1 {
     background: #EE6A50 !important;
     border-radius: 6px 6px 6px 6px;
@@ -102,7 +102,6 @@ text-shadow:0 0 0.05em #FFFFFF, 0 0 0.2em #FFFFFF, 0 0 0.15em #FFFFFF, 0 0 0.2em
     text-shadow: 2px 2px 3px #222222;
 }
 
-/*
 .post-content h2 {
     background: #2B6695;
     border-radius: 6px 6px 6px 6px;

@@ -90,8 +90,10 @@ text-shadow:0 0 0.05em #FFFFFF, 0 0 0.2em #FFFFFF, 0 0 0.15em #FFFFFF, 0 0 0.2em
 
 /*标题h1 h2 h3 h4样式*/
 
+/*
+
 .post-content h1 {
-    background: #EE6A50 !important;
+    background: #374ad6 !important;
     border-radius: 6px 6px 6px 6px;
     box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
     color: #FFFFFF;
@@ -112,7 +114,7 @@ text-shadow:0 0 0.05em #FFFFFF, 0 0 0.2em #FFFFFF, 0 0 0.15em #FFFFFF, 0 0 0.2em
     text-shadow: 2px 2px 3px #222222;
 }
 
-/*
+
 .post-content h3 {
     background: #2B6600;
     border-radius: 6px 6px 6px 6px;
@@ -470,7 +472,7 @@ blockquote{
 
 
 /*butterfly开启美化后的标题字体图标*/
-
+/*
 #article-container.post-content h1:before, h2:before, h3:before, h4:before, h5:before, h6:before {
   -webkit-animation: avatar_turn_around 1s linear infinite;
   -moz-animation: avatar_turn_around 1s linear infinite;
@@ -546,6 +548,7 @@ blockquote{
     transform: rotate(360deg)
   }
 }
+*/
 
 /* input控件和btn美化 */
 .myBtn{

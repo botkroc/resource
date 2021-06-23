@@ -1,4 +1,3 @@
-import subprocess
 import sys
 import os
 import pyperclip
@@ -16,14 +15,9 @@ imgFileName = imgPath.split("\\", -1)[-1]
 
 shutil.move(imgPath, repoPath)
 
-data = os.popen("F:\\C_program\\PracticeWeb\\issueRoot\\resource\\push.sh")
-print(data.read())
-
-# os.system("F:\\C_program\\PracticeWeb\\issueRoot\\resource\\push.sh")
+os.system("F:\\C_program\\PracticeWeb\\issueRoot\\resource\\push.sh")
 
 if(url_markdown):
     pyperclip.copy("![]("+customUrl+imgFileName+")")
 else:
     pyperclip.copy(customUrl+imgFileName)
-
-os.system("pause")

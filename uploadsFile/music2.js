@@ -23,8 +23,8 @@ var ap = new APlayer({
     url: 'https://cdn.jsdelivr.net/gh/btkrc/resource2@main/music/%E3%83%88%E3%83%AB%E3%82%B3%E8%A1%8C%E9%80%B2%E6%9B%B2.m4a',
     pic: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/img/F132F20170513155641.jpg',
   },{
-    title: '不知道名字',
-    author: '不知道',
+    title: 'Lifestyle',
+    author: 'MAGES',
     url: 'https://cdn.jsdelivr.net/gh/btkrc/resource2@main/music/%E5%87%9B%E5%86%BD%E5%85%8B%E7%BD%97%E5%85%8B.m4a',
     pic: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/img/F132F20170513155641.jpg',
   },{

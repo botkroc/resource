@@ -1,4 +1,4 @@
-/*by btkrc1nx*/
+/*by Karcyril*/
 
 /*百度统计*/
 var _hmt = _hmt || [];

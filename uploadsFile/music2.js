@@ -18,6 +18,11 @@ var ap = new APlayer({
     url: 'https://cdn.jsdelivr.net/gh/btkrc/resource2@main/music/%E4%BD%A0%E6%9B%BE%E6%98%AF%E5%B0%91%E5%B9%B4.mp3',
     pic: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/img/F132F20170513155641.jpg',
   },{
+    title: 'トルコ行進曲',
+    author: '96猫',
+    url: 'https://cdn.jsdelivr.net/gh/btkrc/resource2@main/music/%E3%83%88%E3%83%AB%E3%82%B3%E8%A1%8C%E9%80%B2%E6%9B%B2.m4a',
+    pic: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/img/F132F20170513155641.jpg',
+  },{
     title: '不知道名字',
     author: '不知道',
     url: 'https://cdn.jsdelivr.net/gh/btkrc/resource2@main/music/%E5%87%9B%E5%86%BD%E5%85%8B%E7%BD%97%E5%85%8B.m4a',
@@ -98,11 +103,6 @@ var ap = new APlayer({
     url: 'https://cdn.jsdelivr.net/gh/btkrc/resource2@main/music/%E8%8A%B1%E6%B5%B7.mp3',
     pic: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/img/F132F20170513155641.jpg',
   },{
-    title: '夜曲',
-    author: '周杰伦',
-    url: 'https://cdn.jsdelivr.net/gh/btkrc/resource2@main/music/%E5%91%A8%E6%9D%B0%E4%BC%A6%20-%20%E5%A4%9C%E6%9B%B2.mp3',
-    pic: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/img/F132F20170513155641.jpg',
-  }, {
     title: 'summertime',
     author: 'hanser',
     url: 'https://cdn.jsdelivr.net/gh/btkrc/resource2@main/music/summertime.m4a',
@@ -181,11 +181,6 @@ var ap = new APlayer({
     title: '彼女は旅に出る',
     author: '鎖那',
     url: 'https://cdn.jsdelivr.net/gh/btkrc/resource2@main/music/%E5%BD%BC%E5%A5%B3%E3%81%AF%E6%97%85%E3%81%AB%E5%87%BA%E3%82%8B.m4a',
-    pic: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/img/F132F20170513155641.jpg',
-  }, {
-    title: 'Miku',
-    author: '初音ミク',
-    url: 'https://cdn.jsdelivr.net/gh/btkrc/resource2@main/music/Miku.m4a',
     pic: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/img/F132F20170513155641.jpg',
   }, {
     title: 'Deep Blue Townへおいでよ',

@@ -57,12 +57,7 @@ var ap = new APlayer({
     author: '爱哥',
     url: 'https://cdn.jsdelivr.net/gh/btkrc/resource2@main/music/%E4%B8%8D%E5%BF%85%E8%AE%B0%E5%BE%97%20-%20(%E6%89%8B%E6%B8%B8%E3%80%8A%E9%BB%91%E6%BD%AE%E6%A1%99%E4%B9%8B%E4%B8%8A%E3%80%8B%E4%B8%BB%E9%A2%98%E6%9B%B2%E4%B8%AD%E6%96%87%E7%89%88).m4a',
     pic: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/img/F132F20170513155641.jpg',
-  }, {
-    title: '万分之一的光',
-    author: '洛天依',
-    url: 'https://cdn.jsdelivr.net/gh/btkrc/resource2@main/music/%E4%B8%87%E5%88%86%E4%B9%8B%E4%B8%80%E7%9A%84%E5%85%89.mp3',
-    pic: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/img/F132F20170513155641.jpg',
-  }, {
+  },{
     title: '不仅仅是喜欢',
     author: '青柠',
     url: 'https://cdn.jsdelivr.net/gh/btkrc/resource2@main/music/%E4%B8%8D%E4%BB%85%E4%BB%85%E6%98%AF%E5%96%9C%E6%AC%A2.m4a',
@@ -88,19 +83,9 @@ var ap = new APlayer({
     url: 'https://cdn.jsdelivr.net/gh/btkrc/resource2@main/music/%E5%8D%95%E5%90%91%E5%9C%B0%E9%93%81.m4a',
     pic: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/img/F132F20170513155641.jpg',
   }, {
-    title: '夢の続き~DreamsOfLight',
-    author: 'Night Tempo',
-    url: 'https://cdn.jsdelivr.net/gh/btkrc/resource2@main/music/%E5%A4%A2%E3%81%AE%E7%B6%9A%E3%81%8D~DreamsOfLight.mp3',
-    pic: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/img/F132F20170513155641.jpg',
-  }, {
     title: '恋爱吧魔法少女',
     author: 'hanser',
     url: 'https://cdn.jsdelivr.net/gh/btkrc/resource2@main/music/%E6%81%8B%E7%88%B1%E5%90%A7%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3.m4a',
-    pic: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/img/F132F20170513155641.jpg',
-  }, {
-    title: '打上花火',
-    author: 'DAOKO / 米津玄师',
-    url: 'https://cdn.jsdelivr.net/gh/btkrc/resource2@main/music/%E6%89%93%E4%B8%8A%E8%8A%B1%E7%81%AB.m4a',
     pic: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/img/F132F20170513155641.jpg',
   }, {
     title: '红昭愿',
@@ -108,11 +93,6 @@ var ap = new APlayer({
     url: 'https://cdn.jsdelivr.net/gh/btkrc/resource2@main/music/%E7%BA%A2%E6%98%AD%E6%84%BF.m4a',
     pic: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/img/F132F20170513155641.jpg',
   }, {
-    title: '花海',
-    author: '周杰伦',
-    url: 'https://cdn.jsdelivr.net/gh/btkrc/resource2@main/music/%E8%8A%B1%E6%B5%B7.mp3',
-    pic: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/img/F132F20170513155641.jpg',
-  },{
     title: 'summertime',
     author: 'hanser',
     url: 'https://cdn.jsdelivr.net/gh/btkrc/resource2@main/music/summertime.m4a',
@@ -126,11 +106,6 @@ var ap = new APlayer({
     title: '1001夜',
     author: 'hanser',
     url: 'https://cdn.jsdelivr.net/gh/btkrc/resource2@main/music/1001%E5%A4%9C.m4a',
-    pic: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/img/F132F20170513155641.jpg',
-  }, {
-    title: 'Suki Daccha',
-    author: 'ミカヅキ BIGWAVE',
-    url: 'https://cdn.jsdelivr.net/gh/btkrc/resource2@main/music/Suki%20Daccha.mp3',
     pic: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/img/F132F20170513155641.jpg',
   }, {
     title: '钢铁直男',

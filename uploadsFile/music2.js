@@ -28,6 +28,11 @@ var ap = new APlayer({
     url: 'https://cdn.jsdelivr.net/gh/btkrc/resource2@main/music/%E3%81%88%E3%82%8C%E3%81%8F%E3%81%A8%E3%82%8A%E3%81%A3%E3%81%8F%E3%83%BB%E3%81%88%E3%82%93%E3%81%98%E3%81%87%E3%81%85.m4a',
     pic: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/img/F132F20170513155641.jpg',
   },{
+    title: 'ふわふわ♪  轻飘飘♪（翻自 牧野由依）',
+    author: '樹莓蛋奶酥',
+    url: 'https://cdn.jsdelivr.net/gh/btkrc/resource2@main/music/%E3%81%B5%E3%82%8F%E3%81%B5%E3%82%8F%E2%99%AA%20%20%E8%BD%BB%E9%A3%98%E9%A3%98%E2%99%AA%EF%BC%88%E7%BF%BB%E8%87%AA%20%E7%89%A7%E9%87%8E%E7%94%B1%E4%BE%9D%EF%BC%89.m4a',
+    pic: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/img/F132F20170513155641.jpg',
+  },{
     title: 'Lifestyle',
     author: 'MAGES',
     url: 'https://cdn.jsdelivr.net/gh/btkrc/resource2@main/music/%E5%87%9B%E5%86%BD%E5%85%8B%E7%BD%97%E5%85%8B.m4a',

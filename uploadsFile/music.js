@@ -9,7 +9,7 @@ var ap = new APlayer({
   mutex: false,                 // Optional, pause other players when this player playing
   theme: '#e6d0b2',          // Optional, theme color, default: #b7daff
   order: 'random',      // Optional, play mode, can be `random` `single` `circulation`(loop) `order`(no loop), default: `circulation`
-  preload: 'metadata',               // Optional, the way to load music, can be 'none' 'metadata' 'auto', default: 'auto'
+  preload: 'none',               // Optional, the way to load music, can be 'none' 'metadata' 'auto', default: 'auto'
   listmaxheight: '513px',      // Optional, max height of play list
   fixed: true,
   music: [{

@@ -4,7 +4,7 @@
 var ap = new APlayer({
   element: document.getElementById('aplayer'),         // Optional, player element
   narrow: false,         // Optional, narrow style
-  autoplay: false,              // Optional, autoplay song(s), not supported by mobile browsers
+  autoplay: true,              // Optional, autoplay song(s), not supported by mobile browsers
   showlrc: 0,     // Optional, show lrc, can be 0, 1, 2, see: ###With lrc
   mutex: false,                 // Optional, pause other players when this player playing
   theme: '#e6d0b2',          // Optional, theme color, default: #b7daff
@@ -72,6 +72,31 @@ var ap = new APlayer({
     author: 'ケーキ姫☆優海 / JUMA',
     url: 'http://music.163.com/song/media/outer/url?id=692193',
     pic: 'http://p1.music.126.net/_0EPPAiKLQqddTZ5eKSqBw==/109951163136011717.jpg?param=130y130',
+  },{
+    title: 'tutu',
+    author: '鎖那',
+    url: 'http://music.163.com/song/media/outer/url?id=1854628391',
+    pic: 'http://p2.music.126.net/vQQham0ok6MLeY2GRIQNLA==/109951166101594087.jpg?param=130y130',
+  },{
+    title: '约会宣言',
+    author: 'iKz / Hanser',
+    url: 'http://music.163.com/song/media/outer/url?id=1358213099',
+    pic: 'http://p2.music.126.net/25XBZMlTz8bZBq6N54ei4g==/109951163891882131.jpg?param=130y130',
+  },{
+    title: '勾指起誓',
+    author: '泠鸢yousa',
+    url: 'http://music.163.com/song/media/outer/url?id=1350160463',
+    pic: 'http://p1.music.126.net/fxI_iAsaRU9M5ZGE-Pu7iw==/109951164479032071.jpg?param=130y130',
+  },{
+    title: '【洛天依】影子小姐',
+    author: '著小生zoki / 洛天依',
+    url: 'http://music.163.com/song/media/outer/url?id=1298762936',
+    pic: 'http://p1.music.126.net/xJmb740nKXk8paKRHg7Yqg==/109951163440366031.jpg?param=130y130',
+  },{
+    title: '化身星海',
+    author: '中国绊爱',
+    url: 'http://music.163.com/song/media/outer/url?id=1458786291',
+    pic: 'http://p2.music.126.net/vBe87gzZIypoBIfr1Vh3eA==/109951165096412870.jpg?param=130y130',
   },]
 });
 

@@ -1,4 +1,4 @@
-/*by btkrc1nx*/
+/*by Karcyril*/
 
 
 function download(jsonp) {

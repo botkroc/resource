@@ -61,7 +61,7 @@ var ap = new APlayer({
     title: 'カサネテク',
     author: 'Sakanya',
     url: 'http://music.163.com/song/media/outer/url?id=1490050203',
-    pic: '',
+    pic: 'http://p2.music.126.net/jH2eR2gKvW5oDCe56UPVhA==/109951165415325309.jpg?param=130y130',
   },{
     title: '深海少女',
     author: '初音ミク',

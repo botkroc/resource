@@ -48,6 +48,11 @@ var ap = new APlayer({
     url: 'http://music.163.com/song/media/outer/url?id=1853354153',
     pic: 'http://p2.music.126.net/0WoTZP423UPR1UCt-cY9Fg==/109951166087945459.jpg?param=130y130',
   },{
+    title: '恋は渾沌の隷也',
+    author: '後ろから這いより隊G',
+    url: 'http://music.163.com/song/media/outer/url?id=31967343',
+    pic: 'http://p2.music.126.net/IAMMhbg3RZ0boK9j3LQFfQ==/18788454697228143.jpg?param=130y130',
+  },{
     title: '「交织together」',
     author: 'DMYoung / Hanser / 泠鸢yousa',
     url: 'http://music.163.com/song/media/outer/url?id=460478768',

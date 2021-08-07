@@ -28,11 +28,6 @@ var ap = new APlayer({
     url: 'http://music.163.com/song/media/outer/url?id=28403160',
     pic: 'http://p1.music.126.net/vrOG0hAhslI4djtZdMgE6g==/6044015418094303.jpg?param=130y130',
   },{
-    title: 'Conqueror',
-    author: 'IA / Sendra',
-    url: 'http://music.163.com/song/media/outer/url?id=551337683',
-    pic: 'http://p2.music.126.net/PZSATAuqF4Uk9JAzgStp4Q==/109951163244804271.jpg?param=130y130',
-  },{
     title: 'ちるちる',
     author: 'REOL',
     url: 'http://music.163.com/song/media/outer/url?id=436016476',

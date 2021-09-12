@@ -23,6 +23,16 @@ var ap = new APlayer({
     url: 'http://music.163.com/song/media/outer/url?id=22677533',
     pic: 'http://p2.music.126.net/byXQIhAT-iS6xd6icx8EiA==/560750930187412.jpg?param=130y130',
   },{
+    title: '热爱105°C的你',
+    author: '早稻叽',
+    url: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/bgm/%E7%83%AD%E7%88%B1105%C2%B0C%E7%9A%84%E4%BD%A0-%E6%97%A9%E7%A8%BB%E5%8F%BD.mp3',
+    pic: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/bgm/109951166087945459.jpg',
+  },{
+    title: 'Conqueror',
+    author: 'IA',
+    url: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/bgm/Conqueror-IA.m4a',
+    pic: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/bgm/109951163244804271.jpg',
+  },{
     title: 'トルコ行進曲',
     author: '96猫',
     url: 'http://music.163.com/song/media/outer/url?id=28403160',
@@ -37,11 +47,6 @@ var ap = new APlayer({
     author: '樹莓蛋奶酥',
     url: 'http://music.163.com/song/media/outer/url?id=440767322',
     pic: 'http://p1.music.126.net/9Tp9wWekfaBSimmba6ftLA==/109951165599339491.jpg?param=130y130',
-  },{
-    title: '热爱105°C的你',
-    author: '早稻叽',
-    url: 'http://music.163.com/song/media/outer/url?id=1853354153',
-    pic: 'http://p2.music.126.net/0WoTZP423UPR1UCt-cY9Fg==/109951166087945459.jpg?param=130y130',
   },{
     title: '恋は渾沌の隷也',
     author: '後ろから這いより隊G',

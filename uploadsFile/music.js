@@ -43,6 +43,11 @@ var ap = new APlayer({
     url: 'http://music.163.com/song/media/outer/url?id=436016476',
     pic: 'http://p2.music.126.net/cu1sEIDxXOJm5huZ3Wjs0Q==/18833534672880379.jpg?param=130y130',
   },{
+    title: 'アシンメトリー',
+    author: 'REOL',
+    url: 'http://music.163.com/song/media/outer/url?id=28941716',
+    pic: 'http://p1.music.126.net/cZPx3peGTuWEI_GaZB5CDg==/8892850045794893.jpg?param=130y130',
+  },{
     title: 'ふわふわ♪',
     author: '樹莓蛋奶酥',
     url: 'http://music.163.com/song/media/outer/url?id=440767322',

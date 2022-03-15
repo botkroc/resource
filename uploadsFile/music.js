@@ -23,16 +23,6 @@ var ap = new APlayer({
     url: 'http://music.163.com/song/media/outer/url?id=22677533',
     pic: 'http://p2.music.126.net/byXQIhAT-iS6xd6icx8EiA==/560750930187412.jpg?param=130y130',
   }, {
-    title: '热爱105°C的你',
-    author: '早稻叽',
-    url: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/bgm/%E7%83%AD%E7%88%B1105%C2%B0C%E7%9A%84%E4%BD%A0-%E6%97%A9%E7%A8%BB%E5%8F%BD.mp3',
-    pic: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/bgm/109951166087945459.jpg',
-  }, {
-    title: 'Conqueror',
-    author: 'IA',
-    url: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/bgm/Conqueror-IA.m4a',
-    pic: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/bgm/109951163244804271.jpg',
-  }, {
     title: 'Lifestyle',
     author: 'MAGES',
     url: 'http://music.163.com/song/media/outer/url?id=1420745339',

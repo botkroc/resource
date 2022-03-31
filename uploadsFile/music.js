@@ -48,6 +48,11 @@ var ap = new APlayer({
     url: 'http://music.163.com/song/media/outer/url?id=440767322',
     pic: 'http://p1.music.126.net/9Tp9wWekfaBSimmba6ftLA==/109951165599339491.jpg?param=130y130',
   }, {
+    title: '起风了',
+    author: '买辣椒也用券',
+    url: 'http://music.163.com/song/media/outer/url?id=1330348068',
+    pic: 'http://p2.music.126.net/diGAyEmpymX8G7JcnElncQ==/109951163699673355.jpg?param=130y130',
+  }, {
     title: '让风告诉你 (日文版)',
     author: 'Hanser / 泠鸢yousa',
     url: 'http://music.163.com/song/media/outer/url?id=1831504253',

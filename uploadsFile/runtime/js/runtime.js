@@ -1,11 +1,4 @@
 $(function () {
-
-  if (typeof (isLoad) != "undefined") {
-    return;
-  }
-
-  isLoad = true;
-
   var NY = Math.round((new Date('10/22/2020 12:30:00')).getTime() / 1000);
   $('#runtime').flipcountdown({
     size: "xs",

@@ -1,6 +1,6 @@
 $(function () {
 
-  if (typeof (isLoad != "undefined")) {
+  if (typeof (isLoad) != "undefined") {
     return;
   }
 

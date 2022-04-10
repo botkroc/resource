@@ -22,25 +22,44 @@ if ($cardInfoBtn) {
 document.getElementById("menus").getElementsByClassName("site-page")[1].target = "_self";
 
 /*网站运行计时统计*/
-    function mNewDate(str) {
-        str = str.split('-');
-        var date = new Date();
-        date.setUTCFullYear(str[0], str[1] - 1, str[2]);
-        date.setUTCHours(0, 0, 0, 0);
-        return date;
-    }
-    function momxc() {
-        var birthDay = mNewDate("2020-10-20");//设置建站时间
-        var today = new Date();
-        var timeold = today.getTime() - birthDay.getTime();
-        var sectimeold = timeold / 1000
-        var secondsold = Math.floor(sectimeold);
-        var msPerDay = 24 * 60 * 60 * 1000; var e_daysold = timeold / msPerDay;
-        var daysold = Math.floor(e_daysold);
-        var e_hrsold = (daysold - e_daysold) * -24;
-        var hrsold = Math.floor(e_hrsold);
-        var e_minsold = (hrsold - e_hrsold) * -60;
-        var minsold = Math.floor((hrsold - e_hrsold) * -60); var seconds = Math.floor((minsold - e_minsold) * -60).toString();
-        document.getElementById("momk").innerHTML = "本站已运行" + daysold + "天" + hrsold + "小时" + minsold + "分" + seconds + "秒";
-        setTimeout(momxc, 1000);
-    } momxc();
+function myGetRuntime(d) {
+  const dateNow = new Date()
+  const datePost = new Date(d)
+  const dateDiff = dateNow.getTime() - datePost.getTime()
+  const minute = 1000 * 60
+  const hour = minute * 60
+  const day = hour * 24
+
+  let result = {}
+
+  const dayCount = Math.floor(dateDiff / day)
+  const hourCount = Math.floor(dateDiff % day / hour)
+  const minuteCount = Math.floor(dateDiff % day % hour / minute)
+  /**最后余下的为毫秒数 除以1000得到秒数 */
+  const secondCount = Math.floor(dateDiff % day % hour % minute / 1000)
+
+  result.day = dayCount
+  result.hour = hourCount
+  result.minute = minuteCount
+  result.second = secondCount
+
+  return result
+}
+
+var mTimer
+
+(function () {
+  const $runtimeCount = document.getElementById('runtimeshow')
+  if ($runtimeCount) {
+    const publishDate = $runtimeCount.getAttribute('data-publishDate')
+    clearInterval(mTimer)
+    mTimer = setInterval(function () {
+      const runtimeDate = myGetRuntime(publishDate)
+      $runtimeCount.innerText = '本站已运行 ' + runtimeDate.day + '天' +
+ runtimeDate.hour + '小时' + runtimeDate.minute + '分钟' +
+ (runtimeDate.second < 10 ? ('0' + runtimeDate.second) : runtimeDate.second) +
+ '秒'
+    }, 1000)
+
+  }
+})()

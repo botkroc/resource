@@ -59,8 +59,7 @@ var mTimer
       const runtimeDate = myGetRuntime(publishDate)
       $runtimeCount.innerText =runtimeDate.day + ' DAY ' +
  runtimeDate.hour + ' : ' + runtimeDate.minute + ' : ' +
- (runtimeDate.second < 10 ? ('0' + runtimeDate.second) : runtimeDate.second) +
- '秒'
+ (runtimeDate.second < 10 ? ('0' + runtimeDate.second) : runtimeDate.second)
     }, 1000)
 
   }

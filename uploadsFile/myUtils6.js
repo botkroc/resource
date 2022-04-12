@@ -1,4 +1,6 @@
-/*by Karcyril*/
+/*
+by Karcyril
+2022-04-12 21:28:23*/
 
 /*百度统计*/
 var _hmt = _hmt || [];
@@ -55,8 +57,8 @@ var mTimer
     clearInterval(mTimer)
     mTimer = setInterval(function () {
       const runtimeDate = myGetRuntime(publishDate)
-      $runtimeCount.innerText = '本站已运行' + runtimeDate.day + '天' +
- runtimeDate.hour + '小时' + runtimeDate.minute + '分钟' +
+      $runtimeCount.innerText =runtimeDate.day + ' DAY ' +
+ runtimeDate.hour + ' : ' + runtimeDate.minute + ' : ' +
  (runtimeDate.second < 10 ? ('0' + runtimeDate.second) : runtimeDate.second) +
  '秒'
     }, 1000)

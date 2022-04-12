@@ -22,6 +22,11 @@ display:block !important;
   src:url('https://cdn.jsdelivr.net/gh/btkrc/resource@main/fontFamily/tiantianquanziti.ttf'); 
   font-display : swap;
 }
+@font-face {
+  font-family: 'UnidreamLED';
+  src: url("https://cdn.jsdelivr.net/gh/btkrc/resource@main/fontFamily/UnidreamLED.ttf");
+  font-display: swap;
+}
 
 .copyright,.footer_custom_text,.recent-post-info,.card-widget,#post h1,#post h2,#post h3,#post h4,#post h5,#site-title,#subtitle,#blog_name,#menus,.pagination,.gallery-group,#post-info,.blog-slider__content,#sidebar-menus,.post-copyright,.tag_share,.reward-button,.pagination-post,#page,#post-comment{font-family:'tiantianquanziti',sans-serif;}
 /*自定义字体 end*/
@@ -567,28 +572,46 @@ blockquote{
 /*网站统计时间*/
 
     #runtimeshow {
-        animation: mChange 10s infinite;
-        font-weight: 800;
+  width: 180px;
+  margin: auto;
+  color: #28b4c8;
+  padding-inline: 5px;
+  border-radius: 10px;
+  background-color: rgba(0,0,0,0.7);
+  font-family: 'UnidreamLED';
+  box-shadow: 0 0 5px rgba(28,69,218,0.71);
+  animation: flashlight 1s linear infinite alternate;
     }
 
-    @keyframes mChange {
-        0% {
-            color: #5cb85c;
-        }
-
-        25% {
-            color: #556bd8;
-        }
-
-        50% {
-            color: #e40707;
-        }
-
-        75% {
-            color: #66e616;
-        }
-
-        100% {
-            color: #67bd31;
-        }
-    }
+@-moz-keyframes flashlight {
+  from {
+    box-shadow: 0 0 5px #1478d2;
+  }
+  to {
+    box-shadow: 0 0 2px #1478d2;
+  }
+}
+@-webkit-keyframes flashlight {
+  from {
+    box-shadow: 0 0 5px #1478d2;
+  }
+  to {
+    box-shadow: 0 0 2px #1478d2;
+  }
+}
+@-o-keyframes flashlight {
+  from {
+    box-shadow: 0 0 5px #1478d2;
+  }
+  to {
+    box-shadow: 0 0 2px #1478d2;
+  }
+}
+@keyframes flashlight {
+  from {
+    box-shadow: 0 0 5px #1478d2;
+  }
+  to {
+    box-shadow: 0 0 2px #1478d2;
+  }
+}

@@ -31,19 +31,16 @@ function myGetRuntime(d) {
   const minute = 1000 * 60
   const hour = minute * 60
   const day = hour * 24
+  const year = day * 365
 
   let result = {}
 
-  const dayCount = Math.floor(dateDiff / day)
-  const hourCount = Math.floor(dateDiff % day / hour)
-  const minuteCount = Math.floor(dateDiff % day % hour / minute)
+  result.year = Math.floor(dateDiff / year)
+  result.day = Math.floor(dateDiff % year / day)
+  result.hour = Math.floor(dateDiff % year % day / hour)
+  result.minute = Math.floor(dateDiff % year % day % hour / minute)
   /**最后余下的为毫秒数 除以1000得到秒数 */
-  const secondCount = Math.floor(dateDiff % day % hour % minute / 1000)
-
-  result.day = dayCount
-  result.hour = hourCount
-  result.minute = minuteCount
-  result.second = secondCount
+  result.second = Math.floor(dateDiff % year % day % hour % minute / 1000)
 
   return result
 }
@@ -57,9 +54,9 @@ var mTimer
     clearInterval(mTimer)
     mTimer = setInterval(function () {
       const runtimeDate = myGetRuntime(publishDate)
-      $runtimeCount.innerText =runtimeDate.day + ' DAY ' +
- runtimeDate.hour + ' : ' + runtimeDate.minute + ' : ' +
- (runtimeDate.second < 10 ? ('0' + runtimeDate.second) : runtimeDate.second)
+      $runtimeCount.innerText = runtimeDate.year + ' YEAR ' + runtimeDate.day + ' DAY ' +
+        runtimeDate.hour + ' : ' + runtimeDate.minute + ' : ' +
+        (runtimeDate.second < 10 ? ('0' + runtimeDate.second) : runtimeDate.second)
     }, 1000)
 
   }

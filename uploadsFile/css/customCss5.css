@@ -574,6 +574,7 @@ blockquote{
     #runtimeshow {
   width: 180px;
   margin: auto;
+  display: inline-block;
   color: #28b4c8;
   padding-inline: 5px;
   border-radius: 10px;

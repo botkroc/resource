@@ -4,10 +4,10 @@ by Karcyril
 
 /*百度统计*/
 var _hmt = _hmt || [];
-(function() {
+(function () {
   var hm = document.createElement("script");
   hm.src = "https://hm.baidu.com/hm.js?7dcaf984778dff66bda97a472e3bc897";
-  var s = document.getElementsByTagName("script")[0]; 
+  var s = document.getElementsByTagName("script")[0];
   s.parentNode.insertBefore(hm, s);
 })();
 
@@ -18,8 +18,8 @@ console.log("%cDon’t enter any code here unless you know what you are doing.  
 document.getElementById("sidebar-menus").getElementsByClassName("site-page")[1].target = "_self";
 var $cardInfoBtn = document.getElementById("card-info-btn");
 if ($cardInfoBtn) {
-    /**有的页面可能不存在此widget */
-    $cardInfoBtn.target = "_self";
+  /**有的页面可能不存在此widget */
+  $cardInfoBtn.target = "_self";
 }
 document.getElementById("menus").getElementsByClassName("site-page")[1].target = "_self";
 
@@ -55,7 +55,7 @@ var mTimer
     mTimer = setInterval(function () {
       const runtimeDate = myGetRuntime(publishDate)
       $runtimeCount.innerText = runtimeDate.year + ' YEAR ' + runtimeDate.day + ' DAY ' +
-        runtimeDate.hour + ' : ' + runtimeDate.minute + ' : ' +
+        (runtimeDate.hour < 10 ? ('0' + runtimeDate.hour) : runtimeDate.hour) + ' : ' + (runtimeDate.minute < 10 ? ('0' + runtimeDate.minute) : runtimeDate.minute) + ' : ' +
         (runtimeDate.second < 10 ? ('0' + runtimeDate.second) : runtimeDate.second)
     }, 1000)
 

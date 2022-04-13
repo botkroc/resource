@@ -32,6 +32,11 @@ var ap = new APlayer({
     author: '96猫',
     url: 'http://music.163.com/song/media/outer/url?id=28403160',
     pic: 'http://p1.music.126.net/vrOG0hAhslI4djtZdMgE6g==/6044015418094303.jpg?param=130y130',
+  },{
+    title: '爱的魔法',
+    author: '慕初音',
+    url: 'http://music.163.com/song/media/outer/url?id=1318883909',
+    pic: 'http://p2.music.126.net/GAPKeYnfQzYIzzH8kglbLQ==/109951163609770588.jpg?param=130y130',
   }, {
     title: 'ちるちる',
     author: 'REOL',

@@ -9,26 +9,33 @@
     fill: currentColor;
     overflow: hidden;
 }
-.iconfont.iconbilibili1{font-size: 22px !important;}
 
-#site_social_icons{
-display:block !important;
+.iconfont.iconbilibili1 {
+    font-size: 22px !important;
+}
+
+#site_social_icons {
+    display: block !important;
 }
 
 /*自定义字体*/
 
-@font-face{
-  font-family:'tiantianquanziti' ; 
-  src:url('https://cdn.jsdelivr.net/gh/btkrc/resource@main/fontFamily/tiantianquanziti.ttf'); 
-  font-display : swap;
-}
 @font-face {
-  font-family: 'UnidreamLED';
-  src: url("https://cdn.jsdelivr.net/gh/btkrc/resource@main/fontFamily/UnidreamLED.ttf");
-  font-display: swap;
+    font-family: 'tiantianquanziti';
+    src: url('https://cdn.jsdelivr.net/gh/btkrc/resource@main/fontFamily/tiantianquanziti.ttf');
+    font-display: swap;
 }
 
-.copyright,.footer_custom_text,.recent-post-info,.card-widget,#post h1,#post h2,#post h3,#post h4,#post h5,#site-title,#subtitle,#blog_name,#menus,.pagination,.gallery-group,#post-info,.blog-slider__content,#sidebar-menus,.post-copyright,.tag_share,.reward-button,.pagination-post,#page,#post-comment{font-family:'tiantianquanziti',sans-serif;}
+@font-face {
+    font-family: 'UnidreamLED';
+    src: url("https://cdn.jsdelivr.net/gh/btkrc/resource@main/fontFamily/UnidreamLED.ttf");
+    font-display: swap;
+}
+
+.copyright, .footer_custom_text, .recent-post-info, .card-widget, #post h1, #post h2, #post h3, #post h4, #post h5, #site-title, #subtitle, #blog_name, #menus, .pagination, .gallery-group, #post-info, .blog-slider__content, #sidebar-menus, .post-copyright, .tag_share, .reward-button, .pagination-post, #page, #post-comment {
+    font-family: 'tiantianquanziti', sans-serif;
+}
+
 /*自定义字体 end*/
 
 /*首页在最前*/
@@ -46,7 +53,7 @@ header.full_page {
 /*扫光字体 标题*/
 
 
-#post-info .post-title, .post-copyright__author .post-copyright-info a ,.saoguang{
+#post-info .post-title, .post-copyright__author .post-copyright-info a, .saoguang {
     background-image: -webkit-linear-gradient(right, red, orange, yellow, green, yellow, orange, red, orange, yellow, green, yellow, orange, red);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -58,6 +65,7 @@ header.full_page {
     0% {
         background-position: 0 0;
     }
+
     100% {
         background-position: -100% 0;
     }
@@ -76,8 +84,8 @@ header.full_page {
 /*扫光字体 end*/
 
 /*发白光字体*/
-.baiguang,.tag-cloud-list a{
-text-shadow:0 0 0.05em #FFFFFF, 0 0 0.2em #FFFFFF, 0 0 0.15em #FFFFFF, 0 0 0.2em #FFFFFF, 0 0 0.3em #FFFFFF, 0 0 0.4em #FFFFFF, 0 0 0.5em #FF1177, 0 0 0.75em #FFFFFF;
+.baiguang, .tag-cloud-list a {
+    text-shadow: 0 0 0.05em #FFFFFF, 0 0 0.2em #FFFFFF, 0 0 0.15em #FFFFFF, 0 0 0.2em #FFFFFF, 0 0 0.3em #FFFFFF, 0 0 0.4em #FFFFFF, 0 0 0.5em #FF1177, 0 0 0.75em #FFFFFF;
 }
 
 
@@ -141,6 +149,29 @@ text-shadow:0 0 0.05em #FFFFFF, 0 0 0.2em #FFFFFF, 0 0 0.15em #FFFFFF, 0 0 0.2em
 }
 
 */
+#article-container.post-content h1:before {
+    content: "#";
+}
+
+#article-container.post-content h2:before {
+    content: "##";
+}
+
+#article-container.post-content h3:before {
+    content: "###";
+}
+
+#article-container.post-content h4:before {
+    content: "####";
+}
+
+#article-container.post-content h5:before {
+    content: "#####";
+}
+
+#article-container.post-content h6:before {
+    content: "######";
+}
 
 /*标题h1 h2 h3 h4样式 end*/
 
@@ -211,7 +242,7 @@ hr {
 
 /*播放器和右侧图标美化*/
 
-#go-up, #mobile-toc-button, .aplayer-miniswitcher,#to_comment {
+#go-up, #mobile-toc-button, .aplayer-miniswitcher, #to_comment {
     background: rgba(79, 103, 121, 0.3) !important;
 }
 
@@ -238,7 +269,7 @@ hr {
 
 /*透明背景*/
 
-.recent-post-item, #post, .card-info, #page, .card-announcement,.post-copyright {
+.recent-post-item, #post, .card-info, #page, .card-announcement, .post-copyright {
     background: rgba(0, 0, 0, 0.4) !important;
 }
 
@@ -329,33 +360,43 @@ a, img {
     0% {
         border-color: #ff69b4;
     }
+
     10% {
         border-color: #6495ed;
     }
+
     20% {
         border-color: #daa520;
     }
+
     30% {
         border-color: #7fffd4;
     }
+
     40% {
         border-color: #fa8072;
     }
+
     50% {
         border-color: #90ee90;
     }
+
     60% {
         border-color: #f4a460;
     }
+
     70% {
         border-color: #5B9600;
     }
+
     80% {
         border-color: #147B96;
     }
+
     90% {
         border-color: #f4a460;
     }
+
     100% {
         border-color: #ff69b4;
     }
@@ -365,20 +406,20 @@ a, img {
 
 /*公告栏*/
 
-.card-announcement{
-background:rgba(0,0,0,0.3) !important;
-color:#FFA500;
-font-weight:bolder;
+.card-announcement {
+    background: rgba(0, 0, 0, 0.3) !important;
+    color: #FFA500;
+    font-weight: bolder;
 }
 
 
 /*shake 文字*/
-.myShake,.author-info__name,#site-title{
-animation: shake-it .5s reverse infinite cubic-bezier(.68, -.55, .27, 1.55)
+.myShake, .author-info__name, #site-title {
+    animation: shake-it .5s reverse infinite cubic-bezier(.68, -.55, .27, 1.55)
 }
 
-.recent-post-info .article-title:hover{
-animation: shake-it .5s reverse infinite cubic-bezier(.68, -.55, .27, 1.55)
+.recent-post-info .article-title:hover {
+    animation: shake-it .5s reverse infinite cubic-bezier(.68, -.55, .27, 1.55)
 }
 
 
@@ -386,12 +427,15 @@ animation: shake-it .5s reverse infinite cubic-bezier(.68, -.55, .27, 1.55)
     0% {
         text-shadow: 0 0 rgba(0, 255, 255, 0.5), 0 0 rgba(255, 0, 0, 0.5)
     }
+
     25% {
         text-shadow: -2px 0 rgba(0, 255, 255, 0.5), 2px 0 rgba(255, 0, 0, 0.5)
     }
+
     50% {
         text-shadow: -5px 0 rgba(0, 255, 255, 0.5), 3px 0 rgba(255, 0, 0, 0.5)
     }
+
     100% {
         text-shadow: 3px 0 rgba(0, 255, 255, 0.5), 5px 0 rgba(255, 0, 0, 0.5)
     }
@@ -401,12 +445,15 @@ animation: shake-it .5s reverse infinite cubic-bezier(.68, -.55, .27, 1.55)
     0% {
         text-shadow: 0 0 rgba(0, 255, 255, 0.5), 0 0 rgba(255, 0, 0, 0.5)
     }
+
     25% {
         text-shadow: -2px 0 rgba(0, 255, 255, 0.5), 2px 0 rgba(255, 0, 0, 0.5)
     }
+
     50% {
         text-shadow: -5px 0 rgba(0, 255, 255, 0.5), 3px 0 rgba(255, 0, 0, 0.5)
     }
+
     100% {
         text-shadow: 3px 0 rgba(0, 255, 255, 0.5), 5px 0 rgba(255, 0, 0, 0.5)
     }
@@ -416,12 +463,15 @@ animation: shake-it .5s reverse infinite cubic-bezier(.68, -.55, .27, 1.55)
     0% {
         text-shadow: 0 0 rgba(0, 255, 255, 0.5), 0 0 rgba(255, 0, 0, 0.5)
     }
+
     25% {
         text-shadow: -2px 0 rgba(0, 255, 255, 0.5), 2px 0 rgba(255, 0, 0, 0.5)
     }
+
     50% {
         text-shadow: -5px 0 rgba(0, 255, 255, 0.5), 3px 0 rgba(255, 0, 0, 0.5)
     }
+
     100% {
         text-shadow: 3px 0 rgba(0, 255, 255, 0.5), 5px 0 rgba(255, 0, 0, 0.5)
     }
@@ -431,46 +481,71 @@ animation: shake-it .5s reverse infinite cubic-bezier(.68, -.55, .27, 1.55)
     0% {
         text-shadow: 0 0 rgba(0, 255, 255, 0.5), 0 0 rgba(255, 0, 0, 0.5)
     }
+
     25% {
         text-shadow: -2px 0 rgba(0, 255, 255, 0.5), 2px 0 rgba(255, 0, 0, 0.5)
     }
+
     50% {
         text-shadow: -5px 0 rgba(0, 255, 255, 0.5), 3px 0 rgba(255, 0, 0, 0.5)
     }
+
     100% {
         text-shadow: 3px 0 rgba(0, 255, 255, 0.5), 5px 0 rgba(255, 0, 0, 0.5)
     }
 }
+
 /*shake end*/
 
 /*美化waline*/
 
-#waline-wrap .vwrap,#waline-wrap .vinput,#waline-wrap .vbtn,#waline-wrap .vcard .vh{
-border-color:#999999;
+#waline-wrap .vwrap, #waline-wrap .vinput, #waline-wrap .vbtn, #waline-wrap .vcard .vh {
+    border-color: #999999;
 }
 
-#waline-wrap .vpanel .vright .vrow .vcol a{display:none;}
+#waline-wrap .vpanel .vright .vrow .vcol a {
+    display: none;
+}
 
 /*waline end*/
 
 /*置顶封面美化*/
-.full_page::before{content: '';pointer-events: none;position: absolute;top: 0;bottom: 0;left: 0;right: 0;z-index: 3;background-attachment: fixed;background-image: url(https://cdn.jsdelivr.net/gh/btkrc/resource@main/img/dot.gif);transition: all 0.5s;}
+.full_page::before {
+    content: '';
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    background-attachment: fixed;
+    background-image: url(https://cdn.jsdelivr.net/gh/btkrc/resource@main/img/dot.gif);
+    transition: all 0.5s;
+}
 
 /*置顶封面 end*/
 
 /*dark模式下的封面图调亮 */
-.full_page:before{background-color:rgba(0,0,0,0) !important;}
+.full_page:before {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
 
 /*页脚透明*/
-#footer{background:rgba(0,0,0,0);}
-#footer:before{background:rgba(0,0,0,0) !important;}
+#footer {
+    background: rgba(0, 0, 0, 0);
+}
+
+#footer:before {
+    background: rgba(0, 0, 0, 0) !important;
+}
 
 /*引用样式*/
-blockquote{
-    border-left: 5px solid #c08a3e!important;
+blockquote {
+    border-left: 5px solid #c08a3e !important;
     color: #4c4948;
     border-radius: 3px;
-    background: #cac6bb!important;
+    background: #cac6bb !important;
 }
 
 
@@ -554,65 +629,72 @@ blockquote{
 */
 
 /* input控件和btn美化 */
-.myBtn{
-            height: 30px;
-            width: auto;
-            background-color: #FF6A6A;
-            font-size: 14px;
-            line-height: 30px;
-            display: inline-block;
-            text-align: center;
-            color: #fff;
-            border-radius: 5px;
-            border: 1px solid #666666;
-            margin-left: 20px;
-            padding:0 5px;
+.myBtn {
+    height: 30px;
+    width: auto;
+    background-color: #FF6A6A;
+    font-size: 14px;
+    line-height: 30px;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #666666;
+    margin-left: 20px;
+    padding: 0 5px;
 }
 
 /*网站统计时间*/
 
-    #runtimeshow {
-  width: 200px;
-  margin: auto;
-  display: inline-block;
-  color: #28b4c8;
-  padding-inline: 5px;
-  border-radius: 10px;
-  background-color: rgba(0,0,0,0.7);
-  font-family: 'UnidreamLED';
-  box-shadow: 0 0 5px rgba(28,69,218,0.71);
-  animation: flashlight 1s linear infinite alternate;
-    }
+#runtimeshow {
+    width: 200px;
+    margin: auto;
+    display: inline-block;
+    color: #28b4c8;
+    padding-inline: 5px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-family: 'UnidreamLED';
+    box-shadow: 0 0 5px rgba(28, 69, 218, 0.71);
+    animation: flashlight 1s linear infinite alternate;
+}
 
 @-moz-keyframes flashlight {
-  from {
-    box-shadow: 0 0 5px #1478d2;
-  }
-  to {
-    box-shadow: 0 0 2px #1478d2;
-  }
+    from {
+        box-shadow: 0 0 5px #1478d2;
+    }
+
+    to {
+        box-shadow: 0 0 2px #1478d2;
+    }
 }
+
 @-webkit-keyframes flashlight {
-  from {
-    box-shadow: 0 0 5px #1478d2;
-  }
-  to {
-    box-shadow: 0 0 2px #1478d2;
-  }
+    from {
+        box-shadow: 0 0 5px #1478d2;
+    }
+
+    to {
+        box-shadow: 0 0 2px #1478d2;
+    }
 }
+
 @-o-keyframes flashlight {
-  from {
-    box-shadow: 0 0 5px #1478d2;
-  }
-  to {
-    box-shadow: 0 0 2px #1478d2;
-  }
+    from {
+        box-shadow: 0 0 5px #1478d2;
+    }
+
+    to {
+        box-shadow: 0 0 2px #1478d2;
+    }
 }
+
 @keyframes flashlight {
-  from {
-    box-shadow: 0 0 5px #1478d2;
-  }
-  to {
-    box-shadow: 0 0 2px #1478d2;
-  }
+    from {
+        box-shadow: 0 0 5px #1478d2;
+    }
+
+    to {
+        box-shadow: 0 0 2px #1478d2;
+    }
 }

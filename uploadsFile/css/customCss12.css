@@ -149,29 +149,6 @@ header.full_page {
 }
 
 */
-#article-container.post-content h1:before {
-    content: "#";
-}
-
-#article-container.post-content h2:before {
-    content: "##";
-}
-
-#article-container.post-content h3:before {
-    content: "###";
-}
-
-#article-container.post-content h4:before {
-    content: "####";
-}
-
-#article-container.post-content h5:before {
-    content: "#####";
-}
-
-#article-container.post-content h6:before {
-    content: "######";
-}
 
 /*标题h1 h2 h3 h4样式 end*/
 

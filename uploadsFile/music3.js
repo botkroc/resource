@@ -47,6 +47,11 @@ var ap = new APlayer({
     author: 'REOL',
     url: 'http://music.163.com/song/media/outer/url?id=28941716',
     pic: 'http://p1.music.126.net/cZPx3peGTuWEI_GaZB5CDg==/8892850045794893.jpg?param=130y130',
+  },  {
+    title: '夜に駆ける',
+    author: 'YOASOBI',
+    url: 'http://music.163.com/song/media/outer/url?id=1409311773',
+    pic: 'http://p2.music.126.net/3xWlqwYmfwRFebeiONUpGg==/109951164546210608.jpg?param=130y130',
   }, {
     title: 'ふわふわ♪',
     author: '樹莓蛋奶酥',

@@ -73,6 +73,11 @@ var ap = new APlayer({
     url: 'http://music.163.com/song/media/outer/url?id=498942717',
     pic: 'http://p2.music.126.net/k8Fxa118GP34K0VTGKWaDg==/109951163003648209.jpg?param=130y130',
   }, {
+    title: '空山新雨后',
+    author: '音阙诗听 / 锦零',
+    url: 'http://music.163.com/song/media/outer/url?id=1352002513',
+    pic: 'http://p2.music.126.net/-Ox3azW3BpHMpwyXrzqzsw==/109951163927362248.jpg?param=130y130',
+  }, {
     title: '怪物',
     author: '多多poi / Hanser',
     url: 'http://music.163.com/song/media/outer/url?id=1854902495',
